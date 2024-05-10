@@ -10,7 +10,7 @@
       "url": "https://github.com/ahmed-derbala/libs"
     },
     "scripts": {
-      "push": "git add . && git commit -m",
+      "push": "git pull && git add . && git commit -m",
       "postpush": "git push",
       "nestcli":"cp ../nest-cli.json nest-cli.json"
 
